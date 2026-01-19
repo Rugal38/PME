@@ -1,0 +1,63 @@
+.prediction-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+}
+
+.prediction-container h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.prediction-form {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.prediction-form select {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.prediction-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prediction-form button:hover {
+    background-color: #0056b3;
+}
+
+.prediction-form button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.prediction-result {
+    margin-top: 1.5rem;
+}
+
+.prediction-result h3 {
+    margin-bottom: 0.5rem;
+}
+
+.prediction-result p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.error {
+    color: #dc3545;
+    margin-bottom: 1rem;
+}

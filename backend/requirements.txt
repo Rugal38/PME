@@ -1,0 +1,9 @@
+Flask
+Flask-PyMongo
+Flask-Cors
+python-dotenv
+Flask-JWT-Extended
+bcrypt
+pandas
+scikit-learn
+openpyxl
